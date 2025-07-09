@@ -25,3 +25,4 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+BulidDataBase/user_behavior_embedding.py
