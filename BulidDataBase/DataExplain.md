@@ -22,7 +22,7 @@ try:
     # 转换为DataFrame以便查看
     df = pd.DataFrame(raw_data)
 ```
-一共有 `1610012` 条数据
+一共有 `1,610,012` 条数据
 表头为
 ```
 >>> df.columns

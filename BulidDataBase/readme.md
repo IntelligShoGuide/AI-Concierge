@@ -3,7 +3,7 @@
 
 这样损失了评论的权威性信息，即 'helpful_vote' 的信息。
 
-将各个
+筛选完之后还剩 `1,261,420` 个商品数据。
 
 # 亚马逊评论数据集说明
 使用 `Electronics` 分类，一共有两个数据文件：评论文件`Electronics.jsonl`和元数据文件`meta_Electronics.jsonl`。

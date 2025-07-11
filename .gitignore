@@ -1,7 +1,9 @@
-/data
-/models
-/checkpoints
-/temp
+# 忽略data文件夹中的文件，但保留文件夹结构
+/data/*
+# !/data/.gitkeep
+/models/*
+/checkpoints/*
+/temp/*
 
 # Python cache files
 __pycache__/
