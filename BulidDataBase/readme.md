@@ -1,9 +1,11 @@
 # item embeddign 说明
-目前的embedding方式为将 'title', 'text', 'average_rating', 'rating_number', 'details', 'categories', 'price', 'description', 'features'简单地embedding后取平均值，缺失值不参与embedding。
+*目前*的embedding方式为将 'title', 'text', 'average_rating', 'rating_number', 'details', 'categories', 'price', 'description', 'features'简单地embedding后取平均值，缺失值不参与embedding。
 
 这样损失了评论的权威性信息，即 'helpful_vote' 的信息。
 
-筛选完之后还剩 `1,261,420` 个商品数据。
+> **后续会训练一个通道注意力机制，用可学习的方式为各个特征添加权重。**
+
+完整的商品数据集中有 `1,610,012` 件商品，认为'description'和 'features' 都为空的商品缺少必要信息，将被被系统推荐。筛选完之后还剩 `1,261,420` 个商品数据。
 
 # 亚马逊评论数据集说明
 使用 `Electronics` 分类，一共有两个数据文件：评论文件`Electronics.jsonl`和元数据文件`meta_Electronics.jsonl`。

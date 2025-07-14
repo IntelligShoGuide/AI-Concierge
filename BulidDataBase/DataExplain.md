@@ -50,7 +50,7 @@ Index(['main_category', 'title', 'average_rating', 'rating_number', 'features',
 | bought_together | list | 来自网站的推荐捆绑包 | 很多都没有，即 None |
 
 ## 文件 `Electronics.jsonl`
-一共有 `43886944` 条评论数据，包含 `1609860` 件商品。
+一共有 `43,886,944` 条评论数据，包含 `1609860` 件商品。
 ```py
 >>> df['parent_asin'].unique().shape
 (1609860,)
